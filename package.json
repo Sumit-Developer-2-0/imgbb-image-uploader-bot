@@ -1,7 +1,7 @@
 {
   "name": "telegram-telegraph-bot",
   "version": "1.0.0",
-  "description": "A Telegram bot to upload images to Imgbb",
+  "description": "A Telegram bot to upload images to Imgbb and download YouTube videos",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -10,8 +10,9 @@
     "axios": "^1.5.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "form-data": "^4.0.0", 
-    "telegraf": "^4.12.3"
+    "form-data": "^4.0.0",
+    "telegraf": "^4.12.3",
+    "ytdl-core": "^4.11.5"  // Added YouTube downloader dependency
   },
   "engines": {
     "node": ">=16.0.0"
